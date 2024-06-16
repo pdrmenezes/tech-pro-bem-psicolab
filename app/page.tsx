@@ -1,5 +1,7 @@
+import { AboutSection } from "./components/about";
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
+import { ImpactSection } from "./components/impact";
 import { TopNav } from "./components/top-nav";
 
 export default function Home() {
@@ -8,6 +10,8 @@ export default function Home() {
       <TopNav />
       <Header />
       <Hero />
+      <AboutSection />
+      <ImpactSection />
     </main>
   );
 }

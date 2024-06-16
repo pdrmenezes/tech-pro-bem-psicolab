@@ -14,7 +14,7 @@ export function Hero() {
             disponíveis para ajudar você gratuitamente ou de maneira voluntária.
           </p>
           <div className="flex gap-5">
-            <button className="flex gap-2 w-fit px-8 py-4 text-white bg-slate-500 rounded-full">
+            <button className="flex min-w-fit gap-2 w-fit px-8 py-4 text-white bg-slate-500 rounded-full">
               Precisa de ajuda?
             </button>
             <button className="flex gap-2 w-fit px-8 py-4 text-slate-700 outline outline-slate-500 rounded-full">

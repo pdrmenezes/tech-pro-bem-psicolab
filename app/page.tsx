@@ -2,6 +2,7 @@ import { AboutSection } from "./components/about";
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
 import { ImpactSection } from "./components/impact";
+import { PeopleSection } from "./components/people";
 import { TopNav } from "./components/top-nav";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <AboutSection />
       <ImpactSection />
+      <PeopleSection />
     </main>
   );
 }

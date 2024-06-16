@@ -5,7 +5,7 @@ export function Hero() {
     <section className="bg-[#F7F7F7] w-full pt-24 pb-28 px-4">
       <div className="flex flex-col sm:flex-row justify-center sm:justify-start md gap-4 mx-auto max-w-5xl">
         <div className="flex flex-col gap-3">
-          <button className="flex gap-2 w-fit px-4 py-2 text-slate-700 bg-slate-200 rounded-full">
+          <button className="flex gap-2 w-fit px-3 py-1 text-slate-700 bg-slate-200 rounded-full">
             Conheça a nossa história ▸
           </button>
           <h1 className="text-4xl">Você não está só.</h1>
@@ -13,11 +13,11 @@ export function Hero() {
             Aqui você vai encontrar informações confiáveis sobre locais
             disponíveis para ajudar você gratuitamente ou de maneira voluntária.
           </p>
-          <div className="flex sm:flex-wrap gap-5">
-            <button className="flex items-center justify-center min-w-fit  gap-2 w-fit px-8 py-4 text-white bg-slate-500 rounded-full">
+          <div className="flex sm:flex-wrap gap-4 mt-4">
+            <button className="flex items-center justify-center min-w-fit  gap-2 w-fit px-8 py-3 text-white bg-slate-500 hover:bg-slate-700 rounded-full">
               Buscar ajuda
             </button>
-            <button className="flex items-center justify-center min-w-fit gap-2 w-fit px-8 py-4 text-slate-700 outline outline-slate-500 rounded-full">
+            <button className="flex items-center justify-center min-w-fit gap-2 w-fit px-8 py-3 text-slate-700 outline outline-slate-500 rounded-full">
               Junte-se a nós como profissional
             </button>
           </div>

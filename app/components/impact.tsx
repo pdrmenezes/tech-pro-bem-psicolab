@@ -12,7 +12,7 @@ export function ImpactSection() {
         Em 2023, impactamos mais de 5.000 vidas através de nossos serviços de
         terapia, grupos de apoio e programas de prevenção.
       </p>
-      <div className="grid grid-cols-2 sm:grid-cols-4 mb-20">
+      <div className="grid grid-cols-2 sm:grid-cols-4 mb-20 gap-6">
         <div className="min-w-[150px] flex flex-col gap-2 justify-center items-center">
           <Image src={userIcon} width={50} height={50} alt="user icon" />
           <p className="text-4xl font-medium text-gray-500">5000</p>
@@ -41,7 +41,7 @@ export function ImpactSection() {
             Você está passando por algum sofrimento ou questão em saúde mental?
             A gente pode ajudar.
           </p>
-          <button className="flex items-center justify-center min-w-fit  gap-2 w-fit px-8 py-4 text-black bg-[#7BBDD0] rounded-full">
+          <button className="flex items-center justify-center min-w-fit  gap-2 w-fit px-8 py-4 text-white bg-[#47aac6] rounded-full">
             Buscar ajuda
           </button>
         </div>
@@ -51,7 +51,7 @@ export function ImpactSection() {
             Alguém que você conhece está precisando de apoio em saúde mental?
             Conheça locais que podem ajudar
           </p>
-          <button className="flex items-center justify-center min-w-fit  gap-2 w-fit px-8 py-4 text-white bg-[#D8581F] rounded-full">
+          <button className="flex items-center justify-center min-w-fit  gap-2 w-fit px-8 py-4 text-white bg-[#e56d3a] rounded-full">
             Buscar ajuda
           </button>
         </div>

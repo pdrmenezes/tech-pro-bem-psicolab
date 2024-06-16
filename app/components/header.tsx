@@ -5,7 +5,7 @@ import HamburguerMenu from "../assets/hamburguer-menu.svg";
 export function Header() {
   return (
     <div className="w-full bg-[#F7F7F7]">
-      <nav className="flex items-center p-4 justify-between mx-auto max-w-5xl">
+      <nav className="flex items-center p-4 mt-2 justify-between mx-auto max-w-5xl">
         <Image
           src={Logo}
           alt="Psicolab Logo"

@@ -1,4 +1,5 @@
 import { AboutSection } from "./components/about";
+import { Footer } from "./components/footer";
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
 import { ImpactSection } from "./components/impact";
@@ -12,6 +13,7 @@ export default function Home() {
       <Hero />
       <AboutSection />
       <ImpactSection />
+      <Footer />
     </main>
   );
 }

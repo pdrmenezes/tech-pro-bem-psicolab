@@ -35,23 +35,23 @@ export function ImpactSection() {
         </div>
       </div>
       <div className="flex gap-4">
-        <div className="flex flex-col gap-4 w-1/2 bg-[#C8F3FF] p-12 rounded-2xl">
+        <div className="flex flex-col gap-4 w-1/2 bg-[#F0FCFF] p-12 rounded-2xl">
           <h3 className="text-3xl">Ajuda para mim</h3>
           <p className="flex-grow mb-6">
             Você está passando por algum sofrimento ou questão em saúde mental?
             A gente pode ajudar.
           </p>
-          <button className="flex items-center justify-center min-w-fit  gap-2 w-fit px-8 py-4 text-white bg-[#47aac6] rounded-full">
+          <button className="flex items-center justify-center min-w-fit  gap-2 w-fit px-8 py-3 bg-[#7BBDD0] rounded-full hover:bg-[#67a3b4]">
             Buscar ajuda
           </button>
         </div>
-        <div className="flex flex-col gap-4 w-1/2 bg-[#FFB899] p-12 rounded-2xl">
+        <div className="flex flex-col gap-4 w-1/2 bg-[#FFF4F0] p-12 rounded-2xl">
           <h3 className="text-3xl">Ajuda para alguém</h3>
           <p className="flex-grow mb-6">
             Alguém que você conhece está precisando de apoio em saúde mental?
             Conheça locais que podem ajudar
           </p>
-          <button className="flex items-center justify-center min-w-fit  gap-2 w-fit px-8 py-4 text-white bg-[#e56d3a] rounded-full">
+          <button className="flex items-center justify-center min-w-fit  gap-2 w-fit px-8 py-3 bg-[#FF824B] rounded-full hover:bg-[#e97949]">
             Buscar ajuda
           </button>
         </div>
